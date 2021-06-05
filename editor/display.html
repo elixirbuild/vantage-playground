@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body onload="refreshLoop()">
+    <div class="root">
+        <div class="top-section">
+            <div class="editor-select">
+                <a class="top-section--btn">Inspector</a>
+                <a class="top-section--btn scene">Scene</a>
+                <a class="top-section--btn">Assets</a>
+            </div>
+        </div>
+        <div class="grid--b">
+            <div class="inspector">
+                <a class="btn" onclick="location.reload(true)">Reset All</a>
+                <br>
+                <br>
+
+                <div class="section">
+                    <h4>Shapes</h4>
+                    <p>Add shapes to your scene.</p>
+                    <a class="btn inline-width" onclick="Square()">Square</a>
+                    <a class="btn inline-width" onclick="Circle()">Circle</a>
+                    <a class="btn inline-width" onclick="Rectangle()">Rectangle</a>
+                    <a class="btn inline-width" onclick="Triangle()">Triangle</a>
+                    <a class="btn inline-width" onclick="Octagon()">Octagon</a>
+                    <a class="btn inline-width" onclick="Heptagon()">Heptagon</a>
+                    <a class="btn inline-width" onclick="Hexagon()">Hexagon</a>
+                    <a class="btn inline-width" onclick="Polygon()">Pentagon</a>
+                </div>
+                <br>
+
+                <div class="section">
+                    <h4>Settings</h4>
+                    
+                    <h5>Gravity</h5>
+
+                    <input type="text" placeholder="Gravity X" id="inp" value="0">
+                    <input type="text" placeholder="Gravity Y" id="inp2" value="1" style="margin-top: 4px;">
+
+                    <br>
+                    <br>
+                    <a class="btn-inline--inp" onclick="gravityX()">Apply</a>
+
+                    <br>
+                    <br>
+
+                    <h5>Graphical</h5>
+                    
+                    <input type="text" placeholder="Background Color" id="h">
+                    <a class="btn-inline--inp" onclick="background()">Apply</a>
+                </div>
+                <br>
+                <br>
+
+                <div class="section">
+                    <h4>Advanced</h4>
+                
+                    <h5>Custom Object</h5>
+                
+                    <input type="text" placeholder="Size X (int)" id="scaleX">
+                    <input type="text" placeholder="Size Y (int)" id="scaleY" style="margin-top: 4px;">
+                    <input type="text" placeholder="Density (float)" id="density" style="margin-top: 4px;" value="0.04">
+                    <input type="text" placeholder="Friction (float)" id="friction" style="margin-top: 4px;" value="0.01">
+                
+                    <br>
+                    <br>
+                    <a class="btn-inline--inp" onclick="add()">Add Body</a>
+                </div>
+
+                <p>FPS: <span id="fps"></span></p>
+                <p>Version: <span id="version"></span></p>
+                <script src="components/version.js"></script>
+                <script src="components/fps.js"></script>
+            </div>
+            <canvas class="scene-container" id="world">
+
+            </canvas>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.10.0/matter.min.js"></script>
+            <script src="components/main.js"></script>
+        </div>
+    </div>
+</body>
+</html>
