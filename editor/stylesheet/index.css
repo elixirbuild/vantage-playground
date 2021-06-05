@@ -1,1 +1,218 @@
+/* assets and fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* general */
+
+:root {
+    --bg: #0f0f0f;
+    --setup_bg: #000000af;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg);
+    user-select: none;
+    overflow: hidden;
+}
+
+.top-section {
+    background: rgb(10, 10, 10);
+    padding-left: 20px;
+    padding-top: 15px;
+    min-height: 10px;
+    width: 100%;
+}
+.scene {
+    margin-left: 229px;
+}
+
+.top-section--btn {
+    background: var(--bg);
+    padding: 5px;
+    display: inline-block;
+    bottom: 0;
+    left: 0;  
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 60px;
+}
+.top-section--btn:hover {
+    background: rgb(22, 22, 22);
+}
+#active {
+    background: rgb(41, 41, 41);
+}
+
+.inspector {
+    background: none;
+    border-right: 3px solid rgb(10, 10, 10);
+    padding: 10px;
+    display: inline-box;
+    font-size: 13px;
+    font-weight: 300;
+    overflow: scroll;
+    height: 1400px;
+}
+
+.scene-container {
+    background: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.grid--b {
+    display: grid;
+    grid-template-columns: 323px 8fr;
+    width: 100%;
+    height: 100%;
+}
+
+.fps-d {
+    background: rgba(0, 0, 0, 0.644);
+    padding: 10px;
+}
+
+.btn {
+    background: #141414;
+    color: white;
+    display: inline-block;
+    width: 290px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.inline-width {
+    width: 112px;
+    display: inline-block;
+    margin: 3px;
+}
+.btn:hover {
+    background: rgb(22, 22, 22);
+}
+
+h4 {
+    line-height: 0px;
+}
+
+.section {
+    background: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.regular-checkbox {
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 6.5px;
+    position: relative;
+    display: inline-block;
+}
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.regular-checkbox:checked {
+	background-color: transparent;
+	border: 1px solid white;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #ffffff;
+}
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 11px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #ffffff;
+}
+label {
+    vertical-align: top;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #ffffff;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+}
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid rgb(0, 124, 240);
+}
+.btn-inline--inp {
+    background: #141414;
+    color: white;
+    display: inline-block;
+    width: 106px;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.btn-inline--inp:hover {
+    background: rgb(22, 22, 22);
+}
+
+.btn--info {
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+}
+.btn--info:hover {
+    text-decoration: underline;
+}
+
+.link-tdeco {
+    padding: 5px;
+    background: #141414;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.link-tdeco:hover {
+    background: rgb(22, 22, 22);
+}
+
+.file-selection--input {
+    display: none;
+}
+
+.btn--choose-file {
+    background: rgb(10, 74, 158);
+    color: white;
+    display: inline-block;
+    width: 107px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.btn--choose-file:hover {
+    background: rgb(11, 81, 172);
+}
+
+.expand {
+    font-size: 20px;
+    background: #141414;
+    padding: 10px;
+    width: 400px;
+    border-radius: 2px;
+    cursor: pointer;
+}
