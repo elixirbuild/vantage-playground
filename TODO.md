@@ -8,3 +8,7 @@
 - Ability to remove specific objects.
 - Keyboard controls to make the site more accessable for people without a mouse.
 - Make background color easier to use.
+
+## 1.1.0 (Minor)
+- Change background color input to color picker.
+- (WIP)
