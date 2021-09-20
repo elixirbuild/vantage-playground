@@ -1,5 +1,5 @@
-# Vantage Playground ● ■
-A satisfying game where you play around with shapes and physics. <br>
+# Vantage Playground ● ■ ▲
+A satisfying game where you play around with shapes and physics.
 
 ## Vantage 1.1 in development!
 We are aiming for a 2022 release, so we hope you are looking forward to it.
