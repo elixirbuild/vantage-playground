@@ -1,7 +1,3 @@
 # Vantage Playground ● ■ ▲
-A satisfying game where you play around with shapes and physics.
-
-## Vantage 1.1 in development!
-We are aiming for a 2022 release, so we hope you are looking forward to it.
-
-<b>Current: </b> 1.0.0
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) <br>
+A satisfying game where you play around with shapes and physics.<br>
