@@ -6,6 +6,10 @@
 
 [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)<br>
 
-## Liscense
-Vantage Playground is liscensed under [The MIT Liscense (MIT)](https://opensource.org/licenses/MIT) 
-Copyright (c) 2021 Vantage Studios
+### Liscense
+
+Vantage Playground is licensed under [The MIT License (MIT)](https://opensource.org/licenses/MIT)  
+Copyright (c) 2021 Vantage Playground
+
+This license is also supplied with the release and source code.  
+As stated in the license, absolutely no warranty is provided.
