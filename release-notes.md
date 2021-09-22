@@ -1,4 +1,4 @@
-All commits before version **1.0.0** cannot be found on this repository.
+All commits before version [1.0.0](#vantage-playground-100) cannot be found on this repository.
 
 ## Vantage Playground `1.0.0`
 
