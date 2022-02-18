@@ -1,5 +1,16 @@
 All commits before version [1.0.0](#vantage-playground-100) cannot be found on this repository.
 
+## Vantage Playground `1.1.0` (Coming Soon)
+
+- Ragdolls
+- Sound Effects
+- Improved physics
+- Adjusted mouse constraint
+- New Design
+- Text fields are replaced with sliders.
+- Create Object section renamed to "Add Object" + removed 'static friction', 'friction', and 'restitution'
+- Removed custom background color
+
 ## Vantage Playground `1.0.0`
 
 > The official launch of Vantage Playground.
