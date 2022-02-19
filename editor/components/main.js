@@ -157,9 +157,8 @@ var mouseConstraint = Matter.MouseConstraint.create(engine, { //Create Constrain
 });
 Matter.World.add(world, mouseConstraint);
 
-//Start the engine
-Matter.Engine.run(engine);
-Matter.Render.run(render);
+Runner.run(engine);
+Render.run(render);
 
 function MouseConstOff() {
     document.getElementById("btn2").style.opacity = "72%";
