@@ -1,21 +1,52 @@
-//programmed by Rogan Wido
-//Made in August 10th 2020
-//Fetch our canvas
+// Programmed by Rogan Wido
 var canvas = document.getElementById('world');
 
+var Engine = Matter.Engine,
+    Render = Matter.Render,
+    Runner = Matter.Runner,
+    Composites = Matter.Composites,
+    MouseConstraint = Matter.MouseConstraint,
+    Mouse = Matter.Mouse,
+    Composite = Matter.Composite,
+    Body = Matter.Body,
+    Bodies = Matter.Bodies,
+    Vertices = Matter.Vertices,
+    Events = Matter.Events;
+
 //Setup Matter JS
-var engine = Matter.Engine.create();
-var world = engine.world;
+var engine = Matter.Engine.create(),
+    world = engine.world;
 var render = Matter.Render.create({
     canvas: canvas,
-    engine: engine,
-    options: {
-        width: 2030,
-        height: 1000,
-        background: 'transparent',
-        wireframes: false,
-        showAngleIndicator: false
-    }
+        engine: engine,
+        options: {
+            width: 2030,
+            height: 1200,
+            background: 'transparent',
+            wireframes: false,
+            background: '#0f1318',
+            wireframeBackground: '#0f1318',
+            hasBounds: false,
+            enabled: true,
+            showSleeping: false,
+            showDebug: false,
+            showBroadphase: false,
+            showBounds: false,
+            showVelocity: false,
+            showCollisions: false,
+            showSeparations: false,
+            showAxes: false,
+            showPositions: false,
+            showAngleIndicator: false,
+            showIds: false,
+            showShadows: false,
+            showVertexNumbers: false,
+            showConvexHulls: false,
+            showInternalEdges: false,
+            showMousePosition: false,
+            showStats: false,
+            showPerformance: false
+        }
 });
 
 
@@ -77,7 +108,7 @@ function restartSim() {
         var frictionStatic = document.getElementById("frictionStatic");
 
         // Clear
-        World.clear(world);
+        Matter.World.clear(world);
         Matter.World.add(world, floor);
         Matter.World.add(world, wallLeft);
         Matter.World.add(world, wallRight);
