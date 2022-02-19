@@ -173,11 +173,6 @@ function MouseConstOn() {
     Matter.World.add(world, mouseConstraint);
 }
 
-function background() {
-    var value = document.getElementById("h");
-    document.getElementById("world").style.backgroundColor = value.value;
-}
-
 document.onkeydown = function (e) {
     if (e.which == 13) {
         var value = document.getElementById("h").value;
