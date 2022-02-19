@@ -4,7 +4,7 @@
 
 [elixirbuild.github.io/vantage-playground](https://elixirbuild.github.io/vantage-playground/)
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)<br>
+[![version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://semver.org)<br>
 
 ### Liscense
 
