@@ -24,8 +24,6 @@ var render = Matter.Render.create({
             height: 1200,
             background: 'transparent',
             wireframes: false,
-            background: '#0f1318',
-            wireframeBackground: '#0f1318',
             hasBounds: false,
             enabled: true,
             showSleeping: false,
