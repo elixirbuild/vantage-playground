@@ -63,6 +63,37 @@ var Top = Matter.Bodies.rectangle(250, 10, 4030, 70, {
 });
 Matter.World.add(world, Top);
 
+function restartSim() {
+    if (running == false) {
+        var scaleX = document.getElementById("scaleX");
+        var scaleY = document.getElementById("scaleY");
+        var density = document.getElementById("density");
+        var friction = document.getElementById("friction");
+        var frictionAir = document.getElementById("frictionAir");
+        var restitution = document.getElementById("restitution");
+        var color = document.getElementById("color");
+        var frictionStatic = document.getElementById("frictionStatic");
+
+        // Clear
+        World.clear(world);
+        Matter.World.add(world, floor);
+        Matter.World.add(world, wallLeft);
+        Matter.World.add(world, wallRight);
+        Matter.World.add(world, Top);
+        Matter.World.add(world, mouseConstraint);
+
+        scaleX.value == "";
+        scaleY.value == "";
+        density.value == "";
+    }
+}
+
+var button = document.getElementById("rsButton");
+button.addEventListener("click", function () {
+    event.preventDefault();
+    restartSim();
+});
+
 /* X/Y object scale */
 var scaleX = document.getElementById("scaleX");
 var scaleY = document.getElementById("scaleY");
