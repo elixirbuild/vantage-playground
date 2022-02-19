@@ -48,49 +48,45 @@ var render = Matter.Render.create({
 });
 
 
-// Floor
-var floor = Matter.Bodies.rectangle(250, 980, 4030, 80, {
-    isStatic: true, //An immovable object
+var floor = Matter.Bodies.rectangle(950, 1148, 2700, 80, {
+    isStatic: true,
     render: {
-        fillStyle: 'transperant',
+        fillStyle: 'transparent',
         strokeStyle: 'white',
-        lineWidth: 0.5
+        lineWidth: 1
     }
 });
-Matter.World.add(world, floor);
-
-// Wall Left
 var wallLeft = Matter.Bodies.rectangle(9, 250, 90, 4010, {
-    isStatic: true, //An immovable object
+    isStatic: true,
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'white',
-        lineWidth: 0.5
+        strokeStyle: 'transperant',
+        lineWidth: 1
     }
 });
-Matter.World.add(world, wallLeft);
-
-// Wall Right
 var wallRight = Matter.Bodies.rectangle(2020, 250, 90, 4010, {
-    isStatic: true, //An immovable object
+    isStatic: true,
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'white',
-        lineWidth: 0.5
+        strokeStyle: 'transperant',
+        lineWidth: 1
     }
 });
-Matter.World.add(world, wallRight);
-
-// Ceiling
 var Top = Matter.Bodies.rectangle(250, 10, 4030, 70, {
-    isStatic: true, //An immovable object
+    isStatic: true,
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'white',
-        lineWidth: 0.5
+        strokeStyle: 'transperant',
+        lineWidth: 1
     }
 });
-Matter.World.add(world, Top);
+
+Matter.World.add(world, [
+    floor,
+    wallLeft,
+    wallRight,
+    Top
+]);
 
 var running = false;
 
