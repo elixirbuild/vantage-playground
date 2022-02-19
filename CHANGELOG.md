@@ -5,4 +5,4 @@
 - removed indicator panel ([676a153](https://github.com/elixirbuild/vantage-playground/commit/676a153))
 - fixed fps stats ([9129b0d](https://github.com/elixirbuild/vantage-playground/commit/9129b0d))
 - fixed page scrolling ([26b3dfd](https://github.com/elixirbuild/vantage-playground/commit/26b3dfd))
-- updated matter.js to 0.18.0 ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6))
+- updated matter.js to 0.18.0 ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6)) ([0.18.0](https://github.com/liabru/matter-js/blob/master/CHANGELOG.md#0180-2021-12-15))
