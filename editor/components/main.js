@@ -54,7 +54,7 @@ var floor = Matter.Bodies.rectangle(250, 980, 4030, 80, {
     render: {
         fillStyle: 'transperant',
         strokeStyle: 'white',
-        lineWidth: false
+        lineWidth: 0.5
     }
 });
 Matter.World.add(world, floor);
@@ -64,8 +64,8 @@ var wallLeft = Matter.Bodies.rectangle(9, 250, 90, 4010, {
     isStatic: true, //An immovable object
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'transperant',
-        lineWidth: 0
+        strokeStyle: 'white',
+        lineWidth: 0.5
     }
 });
 Matter.World.add(world, wallLeft);
@@ -75,8 +75,8 @@ var wallRight = Matter.Bodies.rectangle(2020, 250, 90, 4010, {
     isStatic: true, //An immovable object
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'transperant',
-        lineWidth: 0
+        strokeStyle: 'white',
+        lineWidth: 0.5
     }
 });
 Matter.World.add(world, wallRight);
@@ -86,8 +86,8 @@ var Top = Matter.Bodies.rectangle(250, 10, 4030, 70, {
     isStatic: true, //An immovable object
     render: {
         fillStyle: 'transperant',
-        strokeStyle: 'transperant',
-        lineWidth: 0
+        strokeStyle: 'white',
+        lineWidth: 0.5
     }
 });
 Matter.World.add(world, Top);
