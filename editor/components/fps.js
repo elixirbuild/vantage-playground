@@ -8,7 +8,7 @@ function refreshLoop() {
       times.shift();
     }
     times.push(now);
-    fps = times.length;
+    fps = times.length / 2;
 
     document.getElementById("fps").innerHTML = fps;
     refreshLoop();
