@@ -63,6 +63,8 @@ var Top = Matter.Bodies.rectangle(250, 10, 4030, 70, {
 });
 Matter.World.add(world, Top);
 
+var running = false;
+
 function restartSim() {
     if (running == false) {
         var scaleX = document.getElementById("scaleX");
