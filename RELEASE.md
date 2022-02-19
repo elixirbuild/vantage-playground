@@ -17,6 +17,9 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - Cleaner javascript
 - Fixed FPS detection
 
+## Vantage Playground `1.0.1`
+> A detailed changelog of this release can be found in [CHANGELOG.md](https://github.com/elixirbuild/vantage-playground/blob/main/CHANGELOG.md#101-2022-2-19)
+
 ## Vantage Playground `1.0.0`
 
 > The official launch of Vantage Playground.
