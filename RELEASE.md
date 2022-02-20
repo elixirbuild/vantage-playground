@@ -13,12 +13,19 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - Removed custom background color
 
 ### Technical Changes
-- Matter.js physics engine updated to [0.18.0](https://github.com/liabru/matter-js/blob/master/RELEASE.md#matterjs0180)
 - Cleaner javascript
-- Fixed FPS detection
 
 ## Vantage Playground `1.0.1`
 > A detailed changelog of this release can be found in [CHANGELOG.md](https://github.com/elixirbuild/vantage-playground/blob/main/CHANGELOG.md#101-2022-2-19)
+
+### Highlights
+- Fixed FPS stats
+- Fixed page scrolling
+- Fixed scene borders
+- 'Reset All' button now clears the canvas instead of refreshing the page
+- Removed custom background color
+- Removed indicator panel
+- Matter.js physics engine updated to [0.18.0](https://github.com/liabru/matter-js/blob/master/RELEASE.md#matterjs0180)
 
 ## Vantage Playground `1.0.0`
 
