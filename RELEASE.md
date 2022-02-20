@@ -9,8 +9,6 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - Custom objects are now polygons instead of rectangles.
 - New UI
 - Text fields are replaced with sliders
-- Adjusted mouse constraint
-- Removed custom background color
 
 ### Technical Changes
 - Cleaner javascript
@@ -25,6 +23,7 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - 'Reset All' button now clears the canvas instead of refreshing the page
 - Removed custom background color
 - Removed indicator panel
+- Adjusted mouse constraint
 - Matter.js physics engine updated to [0.18.0](https://github.com/liabru/matter-js/blob/master/RELEASE.md#matterjs0180)
 
 ## Vantage Playground `1.0.0`
