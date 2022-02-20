@@ -121,7 +121,9 @@ button.addEventListener("click", function () {
     restartSim();
 });
 
-/* X/Y object scale */
+/* X/Y object scale 
+   This part of the code will be changed v1.1
+*/
 var scaleX = document.getElementById("scaleX");
 var scaleY = document.getElementById("scaleY");
 var density = document.getElementById("density");
@@ -141,39 +143,19 @@ function add() {
     Matter.World.add(world, addP);
 }
 
-//Make interactive
 var mouseConstraint = Matter.MouseConstraint.create(engine, { //Create Constraint
     element: canvas,
     constraint: {
         render: {
             visible: false
         },
-        stiffness: 0.8
+        stiffness: 0.96
     }
 });
 Matter.World.add(world, mouseConstraint);
 
 Runner.run(engine);
 Render.run(render);
-
-function MouseConstOff() {
-    document.getElementById("btn2").style.opacity = "72%";
-    document.getElementById("btn1").style.opacity = "100%";
-    Matter.World.remove(world, mouseConstraint);
-}
-
-function MouseConstOn() {
-    document.getElementById("btn2").style.opacity = "100%";
-    document.getElementById("btn1").style.opacity = "72%";
-    Matter.World.add(world, mouseConstraint);
-}
-
-document.onkeydown = function (e) {
-    if (e.which == 13) {
-        var value = document.getElementById("h").value;
-        document.getElementById("world").style.backgroundColor = value;
-    }
-}
 
 var f = document.getElementById("file");
 
@@ -204,17 +186,6 @@ function Polygon() {
         }
     });
     Matter.World.add(world, newP);
-}
-
-function Shapes() {
-    document.getElementById("shapes").style.display = "inline";
-    document.getElementById("display").style.display = "inline";
-    document.getElementById("sh").style.display = "none";
-}
-function Close() {
-    document.getElementById("shapes").style.display = "none";
-    document.getElementById("display").style.display = "none";
-    document.getElementById("sh").style.display = "inline";
 }
 
 function Circle() {
