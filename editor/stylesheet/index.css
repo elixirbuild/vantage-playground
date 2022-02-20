@@ -54,14 +54,13 @@ body {
 }
 
 .inspector {
-    background: none;
-    border-right: 3px solid rgb(10, 10, 10);
+    background: #0000004f;
     padding: 10px;
     display: inline-box;
     font-size: 13px;
     font-weight: 300;
     overflow: scroll;
-    height: 1400px;
+    height: 100vh;
 }
 
 .scene-container {
