@@ -4,7 +4,7 @@
 - removed custom background color ([830b6b5](https://github.com/elixirbuild/vantage-playground/commit/830b6b5)), ([a6f207b](https://github.com/elixirbuild/vantage-playground/commit/a6f207b))
 - removed indicator panel ([676a153](https://github.com/elixirbuild/vantage-playground/commit/676a153))
 - fixed fps stats ([9129b0d](https://github.com/elixirbuild/vantage-playground/commit/9129b0d))
-- fixed page scrolling ([26b3dfd](https://github.com/elixirbuild/vantage-playground/commit/26b3dfd))
+- fixed page scrolling ([26b3dfd](https://github.com/elixirbuild/vantage-playground/commit/26b3dfd)), ([3d43aae](https://github.com/elixirbuild/vantage-playground/commit/3d43aae))
 - fixed scene borders ([d2a057a](https://github.com/elixirbuild/vantage-playground/commit/d2a057a))
 - updated matter.js to [0.18.0](https://github.com/liabru/matter-js/blob/master/CHANGELOG.md#0180-2021-12-15)
  ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6))
