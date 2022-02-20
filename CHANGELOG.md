@@ -1,4 +1,4 @@
-## 1.0.1 (2022-2-19)
+## 1.0.1 (2022-2-20)
 - changed link href to open a new tab instead of replacing the current tab ([88cc7ef](https://github.com/elixirbuild/vantage-playground/commit/86cc7e5))
 - changed 'reset all' button to clear the canvas ([7e0eaf1](https://github.com/elixirbuild/vantage-playground/commit/7e0eaf1)), ([c5fc7dc](https://github.com/elixirbuild/vantage-playground/commit/c5fc7dc))
 - changed mouse constraint stiffness to `0.96` ([c8ea944](https://github.com/elixirbuild/vantage-playground/commit/c8ea944))
