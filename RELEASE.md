@@ -4,11 +4,10 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 
 ### Highlights
 - Ragdolls
-- Sound Effects
 - Custom object section renamed to "Add Object"
-- Custom objects are now polygons instead of rectangles.
+- Custom objects are now polygons.
 - New UI
-- Text fields are replaced with sliders
+- Text fields are now sliders
 
 ### Technical Changes
 - Cleaner javascript
@@ -25,6 +24,7 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - Removed indicator panel
 - Adjusted mouse constraint
 - Matter.js physics engine updated to [0.18.0](https://github.com/liabru/matter-js/blob/master/RELEASE.md#matterjs0180)
+- Temporarily removed 'custom object' section
 
 ## Vantage Playground `1.0.0`
 
