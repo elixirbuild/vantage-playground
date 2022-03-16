@@ -23,6 +23,7 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - Removed custom background color
 - Removed indicator panel
 - Adjusted mouse constraint
+- Adjusted gravity and object physics
 - Matter.js physics engine updated to [0.18.0](https://github.com/liabru/matter-js/blob/master/RELEASE.md#matterjs0180)
 - Temporarily removed 'custom object' section
 
