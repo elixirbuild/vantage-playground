@@ -161,10 +161,10 @@ var f = document.getElementById("file");
 
 // Shapes
 var defaultP = Matter.Bodies.rectangle(985, 90, 90, 90, {
-    density: 0.04,
+    density: 0.001,
     friction: 0.01,
-    frictionAir: 0.00001,
-    restitution: 0.8,
+    frictionAir: 0.0001,
+    restitution: 0.1,
     render: {
         fillStyle: 'white',
         strokeStyle: 'white',
@@ -175,10 +175,10 @@ Matter.World.add(world, defaultP)
 
 function Polygon() {
     var newP = Matter.Bodies.polygon(985, 90, 5, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -190,10 +190,10 @@ function Polygon() {
 
 function Circle() {
     var newP = Matter.Bodies.circle(985, 90, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -205,10 +205,10 @@ function Circle() {
 
 function Square() {
     var newP = Matter.Bodies.rectangle(985, 90, 90, 90, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -220,10 +220,10 @@ function Square() {
 
 function Triangle() {
     var newP = Matter.Bodies.polygon(985, 90, 3, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -235,10 +235,10 @@ function Triangle() {
 
 function Rectangle() {
     var newP = Matter.Bodies.rectangle(985, 90, 150, 90, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -250,10 +250,10 @@ function Rectangle() {
 
 function Hexagon() {
     var newP = Matter.Bodies.polygon(985, 90, 6, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -265,10 +265,10 @@ function Hexagon() {
 
 function Heptagon() {
     var newP = Matter.Bodies.polygon(985, 90, 7, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -280,10 +280,10 @@ function Heptagon() {
 
 function Octagon() {
     var newP = Matter.Bodies.polygon(985, 90, 8, 50, {
-        density: 0.04,
+        density: 0.001,
         friction: 0.01,
-        frictionAir: 0.00001,
-        restitution: 0.8,
+        frictionAir: 0.0001,
+        restitution: 0.1,
         render: {
             fillStyle: 'white',
             strokeStyle: 'white',
@@ -299,7 +299,7 @@ function gravity() {
     var input = document.getElementById("inp2");
 
     if (check.checked == true) {
-        engine.world.gravity.y = 1;
+        engine.world.gravity.y = 1.5;
         input.value = "1";
     } else if (check.checked == false) {
         engine.world.gravity.y = 0;
