@@ -6,6 +6,9 @@
 
 [![version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://semver.org)<br>
 
+[contributors]: https://github.com/elixirbuild/vantage-playground/graphs/contributors
+[contributors-badge]: https://img.shields.io/github/contributors/elixirbuild/vantage-playground
+
 ### Liscense
 
 Vantage Playground is licensed under [The MIT License (MIT)](https://opensource.org/licenses/MIT)  
