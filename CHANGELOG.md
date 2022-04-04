@@ -1,4 +1,7 @@
 ## 1.0.1 (2022-2-20)
+**1** additions, **3** deletions, **4** fixes, **4** changes, **2** updates
+
+- added CHANGELOG.md ([9de99ba](https://github.com/elixirbuild/vantage-playground/commit/9de99ba))
 - changed link href to open a new tab instead of replacing the current tab ([88cc7ef](https://github.com/elixirbuild/vantage-playground/commit/86cc7e5))
 - changed 'reset all' button to clear the canvas ([7e0eaf1](https://github.com/elixirbuild/vantage-playground/commit/7e0eaf1)), ([c5fc7dc](https://github.com/elixirbuild/vantage-playground/commit/c5fc7dc))
 - changed mouse constraint stiffness to `0.96` ([c8ea944](https://github.com/elixirbuild/vantage-playground/commit/c8ea944))
@@ -12,3 +15,4 @@
 - fixed object interaction ([5b911b4](https://github.com/elixirbuild/vantage-playground/commit/5b911b4))
 - updated matter.js to [0.18.0](https://github.com/liabru/matter-js/blob/master/CHANGELOG.md#0180-2021-12-15)
  ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6))
+- updated README.md ([c475652](https://github.com/elixirbuild/vantage-playground/commit/c475652))
