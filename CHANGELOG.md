@@ -1,5 +1,5 @@
 ## 1.0.1 (2022-2-20)
-**1** additions, **3** deletions, **4** fixes, **4** changes, **2** updates
+**1** additions, **3** deletions, **4** fixes, **5** changes, **2** updates
 
 - added CHANGELOG.md ([9de99ba](https://github.com/elixirbuild/vantage-playground/commit/9de99ba))
 - changed link href to open a new tab instead of replacing the current tab ([88cc7ef](https://github.com/elixirbuild/vantage-playground/commit/86cc7e5))
