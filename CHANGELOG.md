@@ -17,3 +17,6 @@
 - updated matter.js to [0.18.0](https://github.com/liabru/matter-js/blob/master/CHANGELOG.md#0180-2021-12-15)
  ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6))
 - updated README.md ([c475652](https://github.com/elixirbuild/vantage-playground/commit/c475652))
+
+## 1.0.0
+> Official release
