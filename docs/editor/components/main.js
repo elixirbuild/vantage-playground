@@ -115,6 +115,13 @@ function restartSim() {
     }
 }
 
+// prevent reloading on accident
+document.addEventListener("change", () => {
+    window.onbeforeunload = function () {
+        return true;
+    }
+});
+
 var button = document.getElementById("rsButton");
 button.addEventListener("click", function () {
     event.preventDefault();
