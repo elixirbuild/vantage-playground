@@ -4,7 +4,7 @@
 - added CHANGELOG.md ([9de99ba](https://github.com/elixirbuild/vantage-playground/commit/9de99ba))
 - added prompt before reloading/closing the tab ([e98de4c](https://github.com/elixirbuild/vantage-playground/commit/e98de4c))
 - changed website root to `docs/` ([2bec48b](https://github.com/elixirbuild/vantage-playground/commit/2bec48b))
-- changed link href to open a new tab instead of replacing the current tab ([88cc7ef](https://github.com/elixirbuild/vantage-playground/commit/86cc7e5))
+- changed link href to open a new tab ([88cc7ef](https://github.com/elixirbuild/vantage-playground/commit/86cc7e5))
 - changed 'reset all' button to clear the canvas ([7e0eaf1](https://github.com/elixirbuild/vantage-playground/commit/7e0eaf1)), ([c5fc7dc](https://github.com/elixirbuild/vantage-playground/commit/c5fc7dc))
 - changed mouse constraint stiffness to `0.96` ([c8ea944](https://github.com/elixirbuild/vantage-playground/commit/c8ea944))
 - changed initial gravity to `1.5` ([4833029](https://github.com/elixirbuild/vantage-playground/commit/4833029))
