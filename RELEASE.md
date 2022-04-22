@@ -35,6 +35,6 @@ All commits before version [1.0.0](#vantage-playground-100) cannot be found on t
 - FPS detection.
 - Improved style.
 
-## Vantage Playground `0.0.0.1`
+## Vantage Playground `0.0.0.1` (Beta)
 
 > The first release of Vantage Playground.
