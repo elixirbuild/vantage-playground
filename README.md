@@ -5,7 +5,7 @@ Vantage Playground is a simple sandbox game where you play with shapes and physi
 
 [elixirbuild.github.io/vantage-playground](https://elixirbuild.github.io/vantage-playground/)
 
-[![version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://semver.org)
 ![contributors-badge](https://img.shields.io/github/contributors/elixirbuild/vantage-playground)
 
 ### Liscense
