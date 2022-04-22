@@ -1,4 +1,4 @@
-## 1.0.1 (2022-2-20)
+## 0.1.1 (2022-2-20)
 **2** additions, **3** deletions, **4** fixes, **5** changes, **2** updates
 
 - added CHANGELOG.md ([9de99ba](https://github.com/elixirbuild/vantage-playground/commit/9de99ba))
@@ -19,5 +19,5 @@
  ([a8edcb6](https://github.com/elixirbuild/vantage-playground/commit/a8edcb6))
 - updated README.md ([c475652](https://github.com/elixirbuild/vantage-playground/commit/c475652))
 
-## 1.0.0
+## 0.1.0
 > Initial release
