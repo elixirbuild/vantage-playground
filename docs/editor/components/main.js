@@ -299,17 +299,16 @@ function Octagon() {
     });
     Matter.World.add(world, newP);
 }
-
-// platform detection *deleted platform detection because it was unnescessary*
+engine.gravity.y = 1.5;
 
 function gravity() {
     var input = document.getElementById("inp2");
 
     if (check.checked == true) {
-        engine.world.gravity.y = 1.5;
+        engine.gravity.y = 1.5;
         input.value = "1";
     } else if (check.checked == false) {
-        engine.world.gravity.y = 0;
+        engine.gravity.y = 0;
         input.value = "0";
     }
 }
@@ -318,6 +317,6 @@ function gravityX() {
     var inputX = document.getElementById("inp").value;
     var inputY = document.getElementById("inp2").value;
 
-    engine.world.gravity.x = inputX;
-    engine.world.gravity.y = inputY;
+    engine.gravity.x = inputX;
+    engine.gravity.y = inputY;
 }
